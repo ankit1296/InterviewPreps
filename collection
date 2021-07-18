@@ -1,0 +1,29 @@
+What is collection and collections ?
+Collection is interface to represent class which contain group of objects and collections is utility interface which allows operations like sort , search
+
+explain collection classes ?
+List ,Set . Map interfaces represent collections and they have implementing classes like arraylist , hashmap , hashset, treeset .
+
+what is arraylist ?
+it is collection class which provide array like facility but dynamic. it grow and shrink on add remove operations.
+it increase size by 50% while growing. 
+
+what is arraylist methods?
+add(), remove(), stream(), add(index,element), get(index), iterator() 
+
+what is difference between arraylist and vector ? 
+arraylist is faster than vector because it is not synchrinized and not thread safe but vector is. 
+vector is legacy class.
+
+what is enemuration and iterator ?
+iterator allow to iterate on collection classes and enemurator on legacy classes like vector.
+
+what is fail fast and fail safe ?
+fail fast classes throw ConccurentModificationException when other thread tries to access. and fail safe doesn't throw exception coz they work on deep copy of that object
+
+what is hashmap ?
+key value pair storing of object. where key is unique and value can be duplicate.
+so hence it allow single null key, inside it store hashcode and values having similar hash are added to linkedlist.
+
+what is set ?
+it store in 
