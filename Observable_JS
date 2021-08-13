@@ -1,0 +1,28 @@
+what is stream ?
+Continuos data over time.
+
+what is RXJS?
+Reactive extension for JavaScript.
+JS library for async operations
+
+what is observable ?
+over time emits multiple values.
+
+Diff. between promise and observable?
+Promise: emit one time value on completion or failure
+Promise cannot be cancelled
+
+Obsrvable : emit multiple values
+can be cancelled
+
+what is hot obseravble?
+Hot observable emit values before subscription is made like mouse event.
+
+and cold observable emits values after subscription is made
+
+take operator in RXJS ?
+It mention how many values need to take and after taking those many values it completes.
+
+what is operator ?
+usually takes observable and perform operations and return another observable.
+
