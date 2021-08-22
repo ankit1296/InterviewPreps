@@ -1,0 +1,24 @@
+What is serialization ?
+Process of converting object into bytestream to save object state. 
+it allows to access object throught network.
+
+how serialize in java ?
+implement serializable interface which is marker interface means no members of class exist it just tells compiler 
+there is something to do with this type of class
+and then add serialversionUID to class which is used in serialization and deseriakzation process
+
+can we write custom serization ?
+Yes. InputObjectStream gives writeObject and readObject method othervise default jvm serialzation is used
+
+transient ?
+it is used to exclude member of class which should not be serialzied
+
+default sewrizlation:
+public class User {
+// define UID
+public static final serialVersionUID = 24233234L;
+
+String username ;
+String userId;
+String userRole;
+}
